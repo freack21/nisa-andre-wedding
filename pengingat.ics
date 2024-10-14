@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Acara Pernikahan//Pernikahan Nisa & Andre Calendar//ID
+BEGIN:VEVENT
+UID:20241104T030000Z-fixri2104@gmail.com
+DTSTAMP:20241015T080000Z
+DTSTART:20241104T030000Z
+DTEND:20241104T160000Z
+SUMMARY:Pernikahan Nisa & Andre
+DESCRIPTION:Pernikahan Nisa & Andre di Bagan Batu. Acara berlangsung dari pukul 10:00 hingga 23:00 WIB.
+LOCATION:Sp.Stop, Dusun Bhakti, Bagan Batu
+END:VEVENT
+END:VCALENDAR
