@@ -35,7 +35,7 @@ audioElement.addEventListener(
 
 let musicPlayed = false;
 
-window.addEventListener("scroll", function () {
+window.addEventListener("click", function () {
   if (!musicPlayed) {
     audioElement.play();
     musicPlayed = true;
