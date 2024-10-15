@@ -106,7 +106,6 @@
             </script>
           </div>
           <div class="space24px"></div>
-          <div class="space24px"></div>
           <div class="container has-text-centered">
             <h4 class="subtitle namapenerima">
               Kepada Yth.,
@@ -275,7 +274,7 @@
                   <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
                     <div class="content">
                       <p class="title-foto">November 2024</p>
-                      <p class="subtitle-foto">Dan sebenernya kami adalah korban HTS yg berujung ke Pelaminan 🤣🤣</p>
+                      <p class="subtitle-foto">Dan sebenarnya kami adalah korban HTS yg berujung ke Pelaminan 🤣</p>
                     </div>
                   </article>
                 </div>
@@ -391,7 +390,7 @@
                 <br />
                 <a class="instagram" href="https://instagram.com/nrns411" target="_blank" alt="Instagram Nisa"> <i class="fab fa-instagram"></i> @nrns411 </a>
                 &nbsp
-                <a class="instagram" href="https://instagram.com/fkrvndii" target="_blank" alt="Instagram Andre"> <i class="fab fa-instagram"></i> @andreanto </a>
+                <a class="instagram" href="https://www.facebook.com/profile.php?id=100069912502702" target="_blank" alt="Instagram Andre"> <i class="fab fa-facebook"></i> AndreAnto </a>
               </p>
             </div>
           </div>
@@ -420,7 +419,7 @@
         duration: 800,
       });
 
-      let kallink = "webcal://" + location.origin + "/pengingat.ics";
+      let kallink = "webcal://" + location.origin.split("://")[1] + "/pengingat.ics";
       let params = new URLSearchParams(document.location.search);
       let penerima = params.get("p");
       let isAnakKami = params.has("o");
