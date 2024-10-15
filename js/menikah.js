@@ -1,7 +1,3 @@
-// Get that hamburger menu cookin' //
-
-document.addEventListener("DOMContentLoaded", function () {});
-
 // Smooth Anchor Scrolling
 $(document).on("click", 'a[href^="#"]', function (event) {
   event.preventDefault();
@@ -27,6 +23,24 @@ function scrollFunction() {
     toTop.style.display = "none";
   }
 }
+var audioElement = document.querySelector("audio");
+
+audioElement.addEventListener(
+  "ended",
+  function () {
+    this.play();
+  },
+  false
+);
+
+let musicPlayed = false;
+
+window.addEventListener("scroll", function () {
+  if (!musicPlayed) {
+    audioElement.play();
+    musicPlayed = true;
+  }
+});
 
 // Preloader
 $(document).ready(function ($) {
