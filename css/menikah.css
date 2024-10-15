@@ -563,55 +563,57 @@ body.preloader-site {
 }
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fotopelai-nisa-andre.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sma-nisa-andre.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 24rem;
+  min-height: 32rem;
 }
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fotopelai-nisa-andre.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fb-nisa-andre.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 24rem;
+  min-height: 32rem;
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fotopelai-nisa-andre.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/hts-nisa-andre.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  min-height: 24rem;
+  min-height: 32rem;
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fotopelai-nisa-andre.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  min-height: 24rem;
-}
-
-.foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fotopelai-nisa-andre.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/pelaminan-nisa-andre.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 24rem;
+  min-height: 32rem;
+}
+
+.foto5 {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/pelaminan-nisa-andre.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 32rem;
 }
 
 .foto6 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fotopelai-nisa-andre.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  min-height: 24rem;
+  min-height: 32rem;
 }
 
 #galeri .foto1 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.jpg");
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.png"); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/ortu-nisa-andre.jpg");
+  background-position: top;
 }
 
 #galeri .foto2 {
@@ -619,19 +621,22 @@ body.preloader-site {
 }
 
 #galeri .foto3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotolengkap-nisa-andre.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/lengkap-nisa-andre.jpg");
 }
 
 #galeri .foto4 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/besan-nisa-andre.jpg");
+  background-position: top;
 }
 
 #galeri .foto5 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.jpg");
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.png"); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/ortu-nisa-andre.jpg");
 }
 
 #galeri .foto6 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.jpg");
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/fotoortu-nisa-andre.png"); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 15, 15, 0.3)), url("../image/ortu-nisa-andre.jpg");
 }
 
 .title-foto {
@@ -673,4 +678,15 @@ body.preloader-site {
 #fikri {
   color: black;
   font-weight: bold;
+}
+
+.subtitle.namapenerima {
+  font-size: 16px;
+}
+
+.subtitle.namapenerima #penerima {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 20px;
 }
